@@ -13,4 +13,9 @@ export class ViewsHomeComponent {
     { value: 45, label: 'members' }
   ]
 
+  items = [
+    { image: '/assets/images/mountain.jpeg', title: 'mountain', description: 'A great hiking route' },
+    { image: '/assets/images/tree.jpeg', title: 'tree', description: 'An awsome spot for climbing' }
+  ]
+
 }

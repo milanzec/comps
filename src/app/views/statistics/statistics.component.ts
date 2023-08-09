@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./statistics.component.css']
 })
 export class StatisticsComponent {
-  @Input() data:any = []
+  @Input() data: any = []
 }
