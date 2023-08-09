@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ViewsHomeComponent {
 
+  stats = [
+    { value: 65, label: 'faves' },
+    { value: 34655, label: 'views' },
+    { value: 45, label: 'members' }
+  ]
+
 }
