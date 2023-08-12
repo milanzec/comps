@@ -8,13 +8,13 @@ import { Component, Input } from '@angular/core';
 export class AccordionComponent {
   @Input() list: any = []
 
-  listItemIndex = 0
+  openedItemIndex = 0
 
-  onClick(index:number){
-    if (index === this.listItemIndex) {
-      this.listItemIndex = -1
+  onClick(index: number) {
+    if (index === this.openedItemIndex) {
+      this.openedItemIndex = -1
     } else {
-      this.listItemIndex = index
-  }
+      this.openedItemIndex = index
     }
+  }
 }
