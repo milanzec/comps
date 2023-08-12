@@ -1,3 +1,6 @@
 <app-divider>Modal Component </app-divider>
 <button (click)="onClick()">Show Modal</button>
-<app-modal  (close)="onClick()" *ngIf="modalOpen"></app-modal>
+<app-modal  (close)="onClick()" *ngIf="modalOpen">
+    <div modalTitle>REUSABLE TITLE</div>
+    <p>ovde ide neki tekst za modal</p>
+</app-modal>
