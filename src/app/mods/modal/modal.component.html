@@ -8,6 +8,9 @@
             <ng-content></ng-content>
         </div>
         <div class="actions">
+            <ng-content select="[modalButton]"></ng-content>
+        </div>
+        <div class="actions actions-default">
             <button (click)="onCloseClick()" class="ui button">OK</button>
         </div>
     </div>
