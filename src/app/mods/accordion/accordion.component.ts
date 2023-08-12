@@ -6,5 +6,15 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./accordion.component.css']
 })
 export class AccordionComponent {
-  @Input() list:any = []
+  @Input() list: any = []
+
+  listItemIndex = 0
+
+  onClick(index:number){
+    if (index === this.listItemIndex) {
+      this.listItemIndex = -1
+    } else {
+      this.listItemIndex = index
+  }
+    }
 }
